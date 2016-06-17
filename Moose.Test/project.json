@@ -1,21 +1,18 @@
 {
   "version": "1.0.0-*",
-
   "buildOptions": {
     "preserveCompilationContext": true
   },
-
   "dependencies": {
     "Moose" : "1.0.0",
     "Npgsql" : "3.1.0-*",
     "dotnet-test-xunit": "1.0.0-rc2-*",
     "Microsoft.NETCore.App": {
-      "version": "1.0.0-rc2-3002702",
+      "version": "1.0.0-rc2-*",
       "type": "platform"
     },
-    "xunit": "2.1.0-rc2-*"
+    "xunit": "2.1.0"
   },
-
   "frameworks": {
     "netcoreapp1.0": {
       "imports": [
@@ -25,9 +22,7 @@
       ]
     }
   },
-
   "testRunner": "xunit",
-
   "tooling": {
     "defaultNamespace": "Moose.Test"
   }
