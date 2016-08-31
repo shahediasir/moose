@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using Xunit;
 
 namespace Moose.Test
@@ -12,8 +9,9 @@ namespace Moose.Test
         [Fact]
         public void ICanSeeData()
         {
-            var conn = new Moose.Connection();
-            conn.Execute();
+            Helpers.ResetDb();
+
+
         }
 
     }
