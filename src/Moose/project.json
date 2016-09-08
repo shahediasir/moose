@@ -1,0 +1,16 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Microsoft.CSharp": "4.0.1",
+    "NETStandard.Library": "1.6.0",
+    "Npgsql": "3.1.7",
+    "System.Dynamic.Runtime": "4.0.11"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
